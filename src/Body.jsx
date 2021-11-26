@@ -66,7 +66,7 @@ export default function Body() {
                         This is the Projects page.
                     </div>
                     <div className="text-gray-400 text-sm"> 
-                        Hi, my name is Aritra Mondal. Developer, Designer Gamer ...
+                        A list of all the projects that I've developed/developing ...
                     </div>
                     <div className="flex">
                         <div className="border border-gray-300 flex px-4 py-2 flex items-center justify-center rounded-full mt-2 mr-2 hover:bg-gray-200 text-sm text-gray-500">
@@ -95,7 +95,7 @@ export default function Body() {
                         This is the Articles and paers page.
                     </div>
                     <div className="text-gray-400 text-sm"> 
-                        Hi, my name is Aritra Mondal. Developer, Designer Gamer ...
+                        A list of all the Articles/Papers I've writter so far ...
                     </div>
                     <div className="flex">
                         <div className="border border-gray-300 flex px-4 py-2 flex items-center justify-center rounded-full mt-2 mr-2 hover:bg-gray-200 text-sm text-gray-500">
@@ -128,7 +128,7 @@ export default function Body() {
                         This is my resume.
                     </div>
                     <div className="text-gray-400 text-sm"> 
-                        Hi, my name is Aritra Mondal. Developer, Designer Gamer ...
+                        Here's my resume. 
                     </div>
                     <div className="flex">
                         <div className="border border-gray-300 flex px-4 py-2 flex items-center justify-center rounded-full mt-2 mr-2 hover:bg-gray-200 text-sm text-gray-500">
@@ -153,7 +153,7 @@ export default function Body() {
                         This is the About Me page.
                     </div>
                     <div className="text-gray-400 text-sm"> 
-                        Hi, my name is Aritra Mondal. Developer, Designer Gamer ...
+                        A brief about my education, work experience, achievements and skills ...
                     </div>
                 </div>
             </div>
