@@ -31,7 +31,7 @@ export default function Home({device, showBack}) {
                     </div>
                 </div>
                 <div className="sm:w-1/2 sm:p-0 sm:mt-auto sm:mb-auto mt-10 px-16 w-full">
-                    <img src="/me2.png" className="w-11/12 mx-auto" alt="me" style={{ borderRadius: "50px 50px 0 50px" }} />
+                    <img src="/images/me2.png" className="w-11/12 mx-auto" alt="me" style={{ borderRadius: "50px 50px 0 50px" }} />
                 </div>
             </div>
 
