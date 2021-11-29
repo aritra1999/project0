@@ -11,7 +11,7 @@ export default function Projects({device, showBack}) {
     return (
         <div className="h-full">
             {
-                device === "mobile" ? <TopBarMobile title="This is the Projects Page." showBack={showBack} /> : <TopBar title="This is the Projects Page." />
+                device === "mobile" ? <TopBarMobile title="Welcome to the Project page." showBack={showBack} /> : <TopBar title="Welcome to the Project page." />
             }
             
             <div className="lg:px-16 md:px-6 px-6 py-10 mx-auto max-w-screen">

@@ -7,7 +7,7 @@ const About = ({device, showBack}) => {
     return (
         <div className="h-full">
             {
-                device === "mobile" ? <TopBarMobile title="This is the Projects Page." showBack={showBack} /> : <TopBar title="This is the Projects Page." />
+                device === "mobile" ? <TopBarMobile title="Welcome to the About me page." showBack={showBack} /> : <TopBar title="Welcome to the About me page." />
             }
             <div className="h-full pb-10 pt-4 lg:px-16 md:px-6 px-6 ">
                 <div className="my-4">

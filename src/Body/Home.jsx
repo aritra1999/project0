@@ -9,7 +9,7 @@ export default function Home({device, showBack}) {
     return (
         <div className="h-full">
             {
-                device === "mobile" ? <TopBarMobile title="This is the Projects Page." showBack={showBack} /> : <TopBar title="This is the Projects Page." />
+                device === "mobile" ? <TopBarMobile title="Welcome to my Home page." showBack={showBack} /> : <TopBar title="Welcome to my Home page." />
             }
             <div className="flex md:flex-row flex-col-reverse h-full -mt-32">
                 <div className="flex items-center justify-center sm:h-full h-1/2 sm:w-1/2 w-full">

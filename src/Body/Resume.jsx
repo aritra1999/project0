@@ -12,7 +12,7 @@ export default function Resume({device, showBack}) {
     return (
         <div className="h-full">
             {
-                device === "mobile" ? <TopBarMobile title="This is the Projects Page." showBack={showBack} /> : <TopBar title="This is the Projects Page." />
+                device === "mobile" ? <TopBarMobile title="Have a look at my resume." showBack={showBack} /> : <TopBar title="Have a look at my resume." />
             }
             
             <div className="lg:px-16 md:px-6 px-6 py-10 mx-auto max-w-screen text-sm">
