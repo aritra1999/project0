@@ -6,8 +6,11 @@ import TopBarMobile from './Topbar-mobile';
 import ProjectArticleCard from './ProjectArticleCard';
 import projects from './projects.json';
 
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('2507d1aafd0d7404a0d276ca8d2de58e');
+
 export default function Projects({device, showBack}) {
-    
+    mixpanel.track('Projects');    
     return (
         <div className="h-full">
             {

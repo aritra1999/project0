@@ -3,7 +3,12 @@ import React from 'react'
 import TopBar from './TopBar';
 import TopBarMobile from './Topbar-mobile';
 
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('2507d1aafd0d7404a0d276ca8d2de58e');
+
 const About = ({device, showBack}) => {
+    mixpanel.track('About');        
+
     return (
         <div className="h-full">
             {

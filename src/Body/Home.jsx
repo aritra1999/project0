@@ -5,7 +5,11 @@ import { FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaGithub} from "react-ic
 import TopBar from './TopBar';
 import TopBarMobile from './Topbar-mobile';
 
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('2507d1aafd0d7404a0d276ca8d2de58e');
+
 export default function Home({device, showBack}) {
+    mixpanel.track('Home');
     return (
         <div className="h-full">
             {

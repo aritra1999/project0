@@ -1,5 +1,4 @@
 import { React, useEffect, useState } from 'react';
-import mixpanel from 'mixpanel-browser';
 
 import Body from './Body.jsx';
 import BodyMobile from './Body-mobile.jsx';
@@ -21,6 +20,7 @@ const getDevice = () => {
 	return "bigscreen";
 }
 
+import mixpanel from 'mixpanel-browser';
 mixpanel.init('2507d1aafd0d7404a0d276ca8d2de58e');
 
 function App() {

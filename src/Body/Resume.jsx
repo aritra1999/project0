@@ -6,9 +6,12 @@ import TopBarMobile from './Topbar-mobile';
 import { GrDocumentPdf } from "react-icons/gr";
 import { MdClose } from "react-icons/md";
 
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('2507d1aafd0d7404a0d276ca8d2de58e');
+
 export default function Resume({device, showBack}) {
     const [showModal, setShowModal] = React.useState(false);
-    
+    mixpanel.track('Resume');        
     return (
         <div className="h-full">
             {
