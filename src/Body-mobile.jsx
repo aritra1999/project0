@@ -10,7 +10,11 @@ import Article from "./Body/Articles";
 import Resume from "./Body/Resume";
 import About from "./Body/About";
 
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('2507d1aafd0d7404a0d276ca8d2de58e');
+
 export default function Body({device}) {    
+    mixpanel.track('Mobile List');
     function EmailList(){   
         return (
             <div className="h-full">
