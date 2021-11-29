@@ -10,7 +10,7 @@ function Navbar(){
                 <input type="search" name="name" placeholder="Search all conversations" className="bg-gray-100 w-full p-1 mx-2" />
                 
                 <div className="flex items-center h-8 w-10"> 
-                    <img src="./navbar-user.jpg" className="h-8 w-10 object-cover rounded-full" alt="User" /> 
+                    <img src={process.env.PUBLIC_URL + '/images/navbar-user.jpg'} className="h-8 w-10 object-cover rounded-full" alt="User" /> 
                 </div>
             </div>
         </div>

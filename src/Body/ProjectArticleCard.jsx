@@ -2,7 +2,7 @@ function ProjectArticleCard({key, thumbnail, title, description, links, tags, on
     
     return (
         <div className="bg-white shadow-md hover:shadow-lg rounded-lg">
-            <img className="rounded-t-lg object-cover w-full h-48" src={ `/images/${ thumbnail }`} alt="" />
+            <img className="rounded-t-lg object-cover w-full h-48" src={ process.env.PUBLIC_URL + `/images/${ thumbnail }`} alt="" /> 
             <div className="pt-6 px-6 pb-4">
                 <div className="h-40">
                     <div className="mb-2">

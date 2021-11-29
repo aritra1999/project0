@@ -21,7 +21,7 @@ function Navbar(){
                     <FiSettings className="h-6 w-6 text-gray-500"/>
                 </div>
                 <div>
-                    <img src="./navbar-user.jpg" className="h-12 w-12 object-cover rounded-full" alt="User" /> 
+                    <img src={process.env.PUBLIC_URL + '/images/navbar-user.jpg'} className="h-12 w-12 object-cover rounded-full" alt="User" /> 
                 </div> 
             </div>
         </div>

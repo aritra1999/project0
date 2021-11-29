@@ -11,6 +11,8 @@ import Social from './Social.jsx';
 import SidebarMobile from './Leftbar-mobile.jsx';
 import Sidebar from './Leftbar.jsx';
 
+import Contact from './Contact.jsx';
+
 const getDevice = () => {
 	if(window.innerWidth < 700)return "mobile";
 	if(window.innerWidth < 1200)return "tablet";
@@ -38,6 +40,7 @@ function App() {
 				<div className="w-screen flex max-h-screen">	
 					{/* <SidebarMobile /> */}
 					<BodyMobile device={device} />
+					<Contact />
 				</div>
 			</div>
 		);

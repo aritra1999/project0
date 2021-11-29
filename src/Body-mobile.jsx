@@ -168,7 +168,7 @@ export default function Body({device}) {
 
     return (
         <div className="pt-20 w-full">
-            <div className="overflow-y-auto absolute h-screen w-full z-30 bg-white">
+            <div className="overflow-y-auto max-w-screen absolute h-screen w-full z-30 bg-white">
                 {page}
             </div>
         </div>

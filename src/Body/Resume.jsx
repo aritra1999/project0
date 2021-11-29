@@ -49,7 +49,7 @@ export default function Resume({device, showBack}) {
                 </div>
                 <div className="my-6">
                     Problem? 
-                    <a href="/resume.pdf" target="_blank" rel="noreferrer" className="ml-2 underline">
+                    <a href="https://drive.google.com/file/d/1FXpfzLEMVNcQdRA5zZ9vPTuVKWikjgK_/view?usp=sharing" target="_blank" rel="noreferrer" className="ml-2 underline">
                         Open here
                     </a>
                 </div>
