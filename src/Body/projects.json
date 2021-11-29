@@ -1,5 +1,19 @@
 [
     {
+        "id":12,
+        "title": "Better Class",
+        "thumbnail": "betterclass.png",
+        "description": "A classroom space with realtime white-board and chat system to discuss and collaborate on ideas using web sockets.",
+        "links": [
+            {
+                "type": "Github",
+                "link": "https://github.com/aritra1999/Major-Project/"
+            }
+        ],
+        "tags": ["Django", "Websockets", "Redis", "Tailwind", "SQL"],
+        "ongoing": false
+    },
+    {
         "id":1,
         "title": "GoAuth",
         "thumbnail": "autoclip.png",

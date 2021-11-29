@@ -20,8 +20,6 @@ const getDevice = () => {
 	return "bigscreen";
 }
 
-import mixpanel from 'mixpanel-browser';
-mixpanel.init('2507d1aafd0d7404a0d276ca8d2de58e');
 
 function App() {
 	const [device, setDevice] = useState(getDevice());
@@ -37,7 +35,7 @@ function App() {
 	
 	
 	if(device === "mobile"){
-		mixpanel.track('Mobile');
+		
 		return (
 			<div className="App"> 
 				<NavbarMobile />
@@ -50,7 +48,7 @@ function App() {
 		);
 	}
 	if(device === "tablet"){
-		mixpanel.track('Tablet');
+		
 		return (
 			<div className="App"> 
 				<Navbar />
@@ -63,7 +61,7 @@ function App() {
 		);
 	}
 	if(device === "laptop"){
-		mixpanel.track('Laptop');
+		
 		return (
 			<div className = "App">
 				<Navbar />
@@ -76,7 +74,7 @@ function App() {
 		);
 	}
 	if(device === "bigscreen"){
-		mixpanel.track('Big screen');
+		
 		return (
 			<div className = "App">
 				<Navbar />

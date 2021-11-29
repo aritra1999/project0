@@ -9,8 +9,9 @@ import Project from './Body/Project';
 import Article from "./Body/Articles";
 import Resume from "./Body/Resume";
 import NoConv from './Body/NoConv';
+import About from "./Body/About";
 
-export default function Body() {    
+export default function Body({device}) {    
     const [page, setPage] = useState(<NoConv/>);
 
     function showHome(){
@@ -27,6 +28,10 @@ export default function Body() {
 
     function showResume(){
         setPage(<Resume/ >);
+    }
+    
+    function showAbout(){
+        setPage(<About device={device} />);
     }
 
 
@@ -138,7 +143,7 @@ export default function Body() {
                     </div>
                 </div>
 
-                <div className="border-b border-gray-200 px-5 py-4 text-gray-700 hover:shadow-md hover:bg-gray-50">
+                <div className="border-b border-gray-200 px-5 py-4 text-gray-700 hover:shadow-md hover:bg-gray-50" onClick={showAbout}>
                     <div className="flex justify-between mb-1">
                         <div className="flex items-center">
                             <MdLabelImportantOutline className="mr-4 h-5 w-5"/>

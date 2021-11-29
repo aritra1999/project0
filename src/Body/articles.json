@@ -1,15 +1,15 @@
 [
     {
-        "title": "Cross-platform Desktop Apps, using Electron.",
-        "thumbnail": "article1.png",
-        "description": "Electron(formerly known as Atom Shell) is an open-source software framework developed and maintained by GitHub.",
+        "title": "Effects of different filters on text extractions from videos using TESSERACT",
+        "thumbnail": "paper1.png",
+        "description": "",
         "links": [
             {
                 "type": "Read on Research Gate",
-                "link": "https://medium.com/@1806290/cross-platform-desktop-apps-using-electron-ec59d2c93bfb"
+                "link": "https://www.researchgate.net/publication/355152865_EFFECTS_OF_DIFFERENT_FILTERS_ON_TEXT_EXTRACTIONS_FROM_VIDEOS_USING_TESSERACT"
             }
         ],
-        "tags": ["Electron", "Getting Started", "Application", "Cross Platform"],
+        "tags": ["Tesseract", "OCR", "Filters", "Deep learning"],
         "ongoing": false
     },
     {
@@ -49,19 +49,6 @@
             }
         ],
         "tags": ["Deployment", "Django", "Heroku", "ACE" , "Git", "Develpment"],
-        "ongoing": true
-    },
-    {
-        "title": "Comparing different image pre-processing techniques.",
-        "thumbnail": "article1.png",
-        "description": "Coming Soon!",
-        "links": [
-            {
-                "type": "Coming Soon",
-                "link": "#"
-            }
-        ],
-        "tags": ["AI", "ML", "DL", "Python" , "Pre-processing", "Data Processing"],
         "ongoing": true
     }
 ]
