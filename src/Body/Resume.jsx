@@ -41,7 +41,7 @@ export default function Resume({device, showBack}) {
                                         </div>
                                         {/*body*/}
                                         <div className="relative flex-auto">
-                                            <embed src="/resume.pdf" className="rounded-b-lg" width="1100px" height="900px"/>
+                                            <embed src={process.env.PUBLIC_URL + '/resume.pdf'} className="rounded-b-lg" width="1100px" height="900px"/>
                                         </div>
                                     </div>
                                 </div>
