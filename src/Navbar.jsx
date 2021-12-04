@@ -4,7 +4,7 @@ import { FiSettings } from "react-icons/fi";
 
 function Navbar(){
     return (
-        <div className="z-40 flex h-20 justify-between items-center px-8 border-b border-gray-200 fixed w-screen bg-white">
+        <div className="z-40 flex h-20 justify-between items-center px-8 border-b border-gray-200 fixed w-full bg-white">
             <div className="flex items-center text-gray-800 font-semibold">  
                 <SiGmail className="h-7 w-7 mr-2 text-red-600" /> MyMail
             </div>

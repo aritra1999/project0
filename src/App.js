@@ -14,6 +14,7 @@ import Sidebar from './Leftbar.jsx';
 import Contact from './Contact.jsx';
 
 const getDevice = () => {
+	if(window.innerHeight === 720 && window.innerWidth === 1280)return "tablet";
 	if(window.innerWidth < 700)return "mobile";
 	if(window.innerWidth < 1200)return "tablet";
 	if(window.innerWidth < 1700)return "laptop";
@@ -78,7 +79,7 @@ function App() {
 		return (
 			<div className = "App">
 				<Navbar />
-				<div className="w-screen flex max-h-screen">				
+				<div className="w-full flex max-h-screen">				
 					<Sidebar /> 
 					<Body />
 					<Social />
