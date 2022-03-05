@@ -6,7 +6,7 @@ export default function NoConv() {
             <div>
                 No conversations selected. 
 
-                <div className="mt-20 text-gray-400 flex justify-center">
+                <div className="mt-20 text-slate-400 flex justify-center">
                     Have a good day 😃. 
                 </div>
             </div>

@@ -25,7 +25,7 @@ export default function Resume({device, showBack}) {
                 Aritra Mondal 
                 <hr className="my-10"/>
                 <div>
-                    <div className="h-40 w-72 bo bg-gray-100 mt-10 py-3 px-4 rounded-md text-gray-500 flex items-center justify-center cursor-pointer" onClick={() => setShowModal(true)}>
+                    <div className="h-40 w-72 bo bg-slate-100 mt-10 py-3 px-4 rounded-md text-slate-500 flex items-center justify-center cursor-pointer" onClick={() => setShowModal(true)}>
                         <GrDocumentPdf  className="mr-2 h-4 w-4 fill-current text-red-400"/>
                         Resume.pdf
                     </div>
@@ -35,7 +35,7 @@ export default function Resume({device, showBack}) {
                                 <div className="relative w-auto my-6 mx-auto">
                                     <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                                         {/*header*/}
-                                        <div className="flex items-center justify-between py-3 px-6 border-b border-solid border-blueGray-200 rounded-t">
+                                        <div className="flex items-center justify-between py-3 px-6 border-b border-solid border-blueslate-200 rounded-t">
                                             <h3 className="text-lg font-semibold">Resume.pdf</h3>
                                             <MdClose  className="h-5 w-5 cursor-pointer" onClick={() => setShowModal(false)}/>
                                         </div>

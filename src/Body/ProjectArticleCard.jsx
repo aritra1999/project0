@@ -27,7 +27,7 @@ function ProjectArticleCard({key, thumbnail, title, description, links, tags, on
                         } 
                     </div>   
                 </div>
-                <div className="flex justify-between px-2 mt-4 pt-4 space-x-8 mr-4 border-t border-gray-100">
+                <div className="flex justify-between px-2 mt-4 pt-4 space-x-8 mr-4 border-t border-slate-100">
                     {
                         links.map((link, i) => 
                             <div className="flex items-center rounded-md text-blue-900 font-medium text-xs" key={i}>

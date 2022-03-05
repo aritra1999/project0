@@ -19,12 +19,12 @@ export default function Home({device, showBack}) {
                 <div className="flex items-center justify-center sm:h-full h-1/2 sm:w-1/2 w-full">
                     <div className="section px-10">
                         <div className="mb-2">Hi, I'm Aritra Mondal.</div>
-                        <div className="sm:text-7xl text-5xl text-gray-800 font-extrabold space-y-4 mt-auto">
+                        <div className="sm:text-7xl text-5xl text-slate-800 font-extrabold space-y-4 mt-auto">
                             <span className="magical-underline">Developer. </span>
                             <span className="magical-underline">Designer. </span>
                             <span className="magical-underline">Gamer. </span>
                         </div>
-                        <div className="mt-12 text-gray-800 ml-2 flex sm:space-x-10 h-16 space-x-8 flex-row text-2xl sm:text-3xl mb-auto">
+                        <div className="mt-12 text-slate-800 ml-2 flex sm:space-x-10 h-16 space-x-8 flex-row text-2xl sm:text-3xl mb-auto">
                             <a target="_blank" rel="noreferrer" href="mailto:1806290@kiit.ac.in"><IoMdMail className="w-6 h-6"/></a>
                             <a target="_blank" rel="noreferrer" href="https://github.com/aritra1999"><FaGithub className="w-6 h-6"/></a>
                             <a target="_blank" rel="noreferrer" href="https://twitter.com/aritramondal199"><FaTwitter className="w-6 h-6"/></a>

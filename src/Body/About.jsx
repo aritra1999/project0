@@ -58,8 +58,8 @@ const About = ({device, showBack}) => {
                         Eucation
                     </span>
                     <div>
-                        <div className="">
-
+                        <div className="">  
+                            
                         </div>
                     </div>
                 </div>                
